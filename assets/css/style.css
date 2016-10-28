@@ -8,6 +8,7 @@ body {
 	background: url("../images/background/subtle_white_mini_waves.png");
 	width: 960px;
 	margin: 0 0 100px; 
+	padding-left: 90px;
 }
 
 header {
@@ -22,7 +23,7 @@ h1 {
 	float: left;
 	background: #4aaaa5;
 	color: white;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	font-weight: bolder;
 	font-size: 24px;
 	padding: 20px;
@@ -31,7 +32,7 @@ h1 {
 
 h2 {
 	color: #4aaaa5;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	font-weight: bolder;
 	font-size: 24px;
 	padding: 20px;
@@ -49,7 +50,7 @@ h3 {
 h4 {
 	background: #4aaaa5;
 	color: white;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	position: absolute;
 	padding: 20px;
 	width: 200px;
@@ -70,17 +71,13 @@ p {
 
 .connect {
 	width: 270px;
-	margin: 20px;
+	margin-top: 30px;
 	padding: 10px;
 	background: #ffffff;
 	text-align: center;
 	position: absolute;
 	right: 40px;
-	bottom: 270px;
-}
-
-.form {
-	padding: 10px;
+	top: 85px; 
 }
 
 #contact {
